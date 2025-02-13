@@ -8,7 +8,8 @@ This Persona plays the role of the 'Consumer'. And as such will judge the displa
 
 ## Demographics
 
-- Working Adults aged 25 - 40
+- Working Adults
+- Aged 25 - 40
 
 ## Goals / Motivations
 
@@ -16,7 +17,8 @@ This Persona plays the role of the 'Consumer'. And as such will judge the displa
 
 ## Pain Points
 
-- What is the most efficient way to showcase our technical acumen?
+- Is the UI Intuitive
+- How **efficient** does the site showcase the [Developer]'s technical acumen?
 - How can they contact us
 
 ## How do they interact?
