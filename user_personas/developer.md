@@ -1,8 +1,10 @@
 # Developer
 
+Jace Higdon
+
 ## Role in the project
 
-The creators of the website.
+The team members responsible for designing, coding, and maintaining the software
 
 ## Demographics
 
@@ -15,7 +17,8 @@ The creators of the website.
 
 ## Pain Points
 
-- Search Engine Optimization - How to boost the websites rankings
+- Efficiency - How to meet the [End User]'s expectation?
+- Maintainability - How easy is the codebase to maintain?
 
 ## How do they interact with the Program?
 

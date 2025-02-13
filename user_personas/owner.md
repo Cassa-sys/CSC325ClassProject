@@ -8,7 +8,8 @@ Overview the development process
 
 ## Demographics
 
-- The [developer]
+- A college student seeking employement
+- The [Developer]
 - Literally just me...
 
 ## Goals / Motivations
@@ -18,6 +19,7 @@ Overview the development process
 ## Pain Points
 
 - Search Engine Optimization - Will anyone actually be able to discover the site?
+- Cost - How expensive is the site to host? Hopefully free!
 
 ## How do they interact?
 
