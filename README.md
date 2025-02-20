@@ -1,6 +1,21 @@
-# CSC 325 Class Project
+# Computer science 325 class project
 
-The goal of this project is to create a comprehensive and visually appealing personal website portfolio.
-To accomplish this, we have analyzed the [User Personas] inside of ./user_personas/
+## Goal
 
-Additionally, demonstration of Github Repository Management skills are vital to this project.
+Create a
+
++ Comprehensive
++ Technical
++ Visually appealing
+
+personal website portfolio.
+
+See the [User Personas] inside of ./user_personas/
+
+## Skills vital to this project
+
++ GitHub Source Control
+
++ Ability to navigate DevContainers
+
++ Website Development
