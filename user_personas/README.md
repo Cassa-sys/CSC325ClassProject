@@ -1,13 +1,19 @@
-# Purpose of this Directory
+# Purpose of this directory
 
-The purpose of this directory is to analyze the different [User Personas] that are vested in this project.
+[User Personas] interests?
 
-Each User Persona is inside of a different file such as [developer.md]
-In each file we track:
+Each file in this directory has a separate User Persona
+
+## Tracked information
 
 - The name of the User Persona
 - Their role in the project
 - Demographics in the User Persona
 - Their Goals / Motivations
 - Challenges / Pain Points with the project
-- A brief scenario illustrating how they interact with the project
+- An example of how they interact with the project
+
+## Why
+
+- To know what the different personas desire
+- How to market to those personas

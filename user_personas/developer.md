@@ -1,25 +1,24 @@
 # Developer
 
-Jace Higdon
-
 ## Role in the project
 
 The team members responsible for designing, coding, and maintaining the software
 
 ## Demographics
 
-- Literally just me...
+- Sophomore computer science major in college looking for a job
 
-## Goals / Motivations
+## Goals and motivations
 
-- Easily Maintable Code
-- Being able to impress others with their code
+- Easily Maintainable Code
+- Ability to impress others with their code
+- Getting a job
 
-## Pain Points
+## Pain points
 
 - Efficiency - How to meet the [End User]'s expectation?
-- Maintainability - How easy is the codebase to maintain?
+- Maintainability - Preferably easy to maintain the codebase.
 
-## How do they interact with the Program?
+## How do they interact with the program?
 
-- The developers are the ones who work on the website.
+- The developers develop the website.

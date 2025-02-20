@@ -1,26 +1,24 @@
 # Owner
 
-Thee owner of this Repository, Jace Higdon.
-
 ## Role in the project
 
 Overview the development process
 
 ## Demographics
 
-- A college student seeking employement
+- Sophomore computer science major in college looking for a job
 - The [Developer]
-- Literally just me...
 
-## Goals / Motivations
+## Goals and motivations
 
-- To get hired!!
+- To get hired.
 
-## Pain Points
+## Pain points
 
-- Search Engine Optimization - Will anyone actually be able to discover the site?
-- Cost - How expensive is the site to host? Hopefully free!
+- Search Engine Optimization - Recruiters able to discover the site?
+- Cost - Inexpensive hosting.
 
 ## How do they interact?
 
-As they are also the [developer], by developing the project! Then hopefully getting contacted by the [end_user].
+As the [Owner] and also the [Developer], by developing the project.
+Then hopefully getting contacted by the [End user].

@@ -1,25 +1,26 @@
-# End User
+# End user
 
-Interviewers are those who fit in this category the most
+Interviewers fit in this category the most
 
 ## Role in the project
 
-This Persona plays the role of the 'Consumer'. And as such will judge the display of content on the website
+This Persona plays the role of the 'Consumer'.
+They judge both the content, and how its portrayed on the website
 
 ## Demographics
 
 - Working Adults
 - Aged 25 - 40
 
-## Goals / Motivations
+## Goals or motivations
 
 - To search for budding talent in the software development field for hiring.
 
-## Pain Points
+## Pain points
 
-- Is the UI Intuitive
-- How **efficient** does the site showcase the [Developer]'s technical acumen?
-- How can they contact us
+- UI **intuitive**?
+- How **efficiently** does the site showcase the [Developer]'s technical acumen?
+- How can they contact the [Owner]
 
 ## How do they interact?
 
