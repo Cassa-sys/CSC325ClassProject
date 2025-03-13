@@ -1,2 +1,5 @@
 # Ignore Vale gnereated files
 styles/
+
+# Ignore Node Generated files
+node_modules
