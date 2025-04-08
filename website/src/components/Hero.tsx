@@ -10,6 +10,32 @@ import Typography from '@mui/material/Typography';
 import visuallyHidden from '@mui/utils/visuallyHidden';
 import { styled } from '@mui/material/styles';
 
+const StyledBox = styled('div')(({ theme }) => ({
+  alignSelf: 'center',
+  width: '100%',
+  height: 400,
+  marginTop: theme.spacing(8),
+  borderRadius: (theme.vars || theme).shape.borderRadius,
+  outline: '6px solid',
+  outlineColor: 'hsla(220, 25%, 80%, 0.2)',
+  border: '1px solid',
+  borderColor: (theme.vars || theme).palette.grey[200],
+  boxShadow: '0 0 12px 8px hsla(220, 25%, 80%, 0.2)',
+  // TODO: FIND BETTER IMAGE!!!!
+  backgroundImage: `url(${process.env.TEMPLATE_IMAGE_URL || 'https://mui.com'}/static/screenshots/material-ui/getting-started/templates/dashboard.jpg)`,
+  backgroundSize: 'cover',
+  [theme.breakpoints.up('sm')]: {
+    marginTop: theme.spacing(10),
+    height: 700,
+  },
+  ...theme.applyStyles('dark', {
+    boxShadow: '0 0 24px 12px hsla(210, 100%, 25%, 0.2)',
+    backgroundImage: `url(${process.env.TEMPLATE_IMAGE_URL || 'https://mui.com'}/static/screenshots/material-ui/getting-started/templates/dashboard-dark.jpg)`,
+    outlineColor: 'hsla(220, 20%, 42%, 0.1)',
+    borderColor: (theme.vars || theme).palette.grey[700],
+  }),
+}));
+
 export default function Hero() {
   return (
     <Box
@@ -29,7 +55,7 @@ export default function Hero() {
       <Container
         sx={{
           display: 'flex',
-          flexDirection: 'column',
+          flexDirection: 'row',
           alignItems: 'center',
           pt: { xs: 14, sm: 20 },
           pb: { xs: 8, sm: 12 },
@@ -49,7 +75,7 @@ export default function Hero() {
               fontSize: 'clamp(3rem, 10vw, 3.5rem)',
             }}
           >
-            Our&nbsp;latest&nbsp;
+            Your&nbsp;next&nbsp;
             <Typography
               component="span"
               variant="h1"
@@ -61,7 +87,7 @@ export default function Hero() {
                 }),
               })}
             >
-              products
+              hire
             </Typography>
           </Typography>
           <Typography
@@ -71,9 +97,10 @@ export default function Hero() {
               width: { sm: '100%', md: '80%' },
             }}
           >
-            Explore our cutting-edge dashboard, delivering high-quality solutions
-            tailored to your needs. Elevate your experience with top-tier features
-            and services.
+            You're on a mission to build exceptional tech teams—and I’m here to make it easier 
+            for you. As a passionate junior developer, I bring fresh ideas, problem-solving 
+            skills, automation, and a commitment to delivering results. Let’s work together to turn your 
+            challenges into opportunities, and ensure your team thrives.
           </Typography>
           <Stack
             direction={{ xs: 'column', sm: 'row' }}
@@ -90,7 +117,7 @@ export default function Hero() {
               size="small"
               variant="outlined"
               aria-label="Enter your email address"
-              placeholder="Your email address"
+              placeholder="Enter your email address"
               fullWidth
               slotProps={{
                 htmlInput: {
@@ -105,7 +132,7 @@ export default function Hero() {
               size="small"
               sx={{ minWidth: 'fit-content' }}
             >
-              Start now
+              Go now
             </Button>
           </Stack>
           <Typography
@@ -120,6 +147,7 @@ export default function Hero() {
             .
           </Typography>
         </Stack>
+        <StyledBox />
       </Container>
     </Box>
   );

@@ -6,7 +6,7 @@ import Avatar from '@mui/material/Avatar';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import Grid from '@mui/material/Grid2';
+import Grid from '@mui/material/Grid';
 import { useTheme } from '@mui/system';
 
 //NOTE: Add src="/path/to/image.jpg" to <Avatar> for the image of future testimonials. 
@@ -48,7 +48,7 @@ const userTestimonials = [
       "I've tried other similar products, but this one stands out for its innovative features. It's clear that the makers put a lot of thought into creating a solution that truly addresses user needs.",
   },
   {
-    avatar: <Avatar alt="Cindy Baker" src="/static/images/avatar/6.jpg" />,
+    avatar: <Avatar alt="Cindy Baker" />,
     name: 'Daniel Wolf',
     occupation: 'CDO',
     testimonial:
