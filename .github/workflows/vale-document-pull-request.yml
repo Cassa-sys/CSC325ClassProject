@@ -10,11 +10,8 @@ jobs:
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v4
-    
-    - name: Setup DevEnv
-      uses: devcontainers/ci@v0.3
 
-    - name: Run Vale
-      run: |
-        vale --version
-        vale docs/
+    - uses: errata-ai/vale-action@v2.1.1
+      with: 
+        files: docs/
+        fail_on_error: true
