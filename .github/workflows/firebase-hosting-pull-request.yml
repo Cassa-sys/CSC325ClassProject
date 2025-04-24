@@ -20,7 +20,8 @@ jobs:
       - uses: actions/checkout@v4
       
       # Install dependencies
-      - run: |
+      - name: Install Dependencies
+        run: |
           cd website
           npm i
       
@@ -30,13 +31,16 @@ jobs:
           cd website
           npm test
       
+      # Vale Linting
       - name: Run Vale Documentation Validation
         uses: errata-ai/vale-action@v2.1.1
         with: 
+          files: '**/*.md'
           fail_on_error: true
       
       # Build the project
-      - run: |
+      - name: Build the Project
+        run: |
           cd website
           npm run build
       
