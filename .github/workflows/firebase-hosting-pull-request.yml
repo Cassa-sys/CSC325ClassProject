@@ -35,11 +35,11 @@ jobs:
       - name: Run Vale Documentation Validation
         uses: errata-ai/vale-action@v2.1.1
         with: 
-          file: user_personas/
+          files: user_personas/
           fail_on_error: true
       - uses: errata-ai/vale-action@v2.1.1
         with: 
-          file: website/
+          files: website/
           fail_on_error: true
       
       # Build the project
