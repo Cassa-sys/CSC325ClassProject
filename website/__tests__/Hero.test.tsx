@@ -32,7 +32,7 @@ describe('Hero', () => {
 
   it('rendersImage', () => {
     render (<Hero />);
-    const image = screen.getByRole('image');
+    const image = screen.getByTestId('hero-backgroundImage');
     expect(image).toBeInTheDocument();
   })
   
