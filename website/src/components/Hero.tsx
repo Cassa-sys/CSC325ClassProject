@@ -147,7 +147,7 @@ export default function Hero() {
             .
           </Typography>
         </Stack>
-        <StyledBox />
+        <StyledBox data-testid="hero-backgroundImage"/>
       </Container>
     </Box>
   );
