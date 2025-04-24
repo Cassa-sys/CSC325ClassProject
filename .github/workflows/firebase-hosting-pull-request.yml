@@ -30,10 +30,6 @@ jobs:
           cd website
           npm test
       
-      # Run Vale for documentation validation
-      - name: Sync Vale Configuration
-        run: vale sync
-
       - name: Run Vale Documentation Validation
         uses: errata-ai/vale-action@v2.1.1
         with: 
